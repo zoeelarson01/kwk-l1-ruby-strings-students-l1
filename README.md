@@ -7,7 +7,7 @@
 
 # Ruby strings party!
 
-Your friend Harry Potter was very impressed with the invitations that you created for Ron Weasley's graduation party. Harry suggests that the two of you start an invitation printing business together. He wants you to create a program that gets information from users, stores that information in variables and then prints out custom invitiations. You know something like this:
+Your friend Harry Potter was very impressed with the invitations that you created for Ron Weasley's graduation party. Harry suggests that the two of you start an invitation printing business together. He wants you to create a program that prompts a customer for their party details and then prints out custom invitations. You know something like this:
 
 Dear Hermione,
 
@@ -18,16 +18,5 @@ Sincerely,
 Harry Potter
 
 
-### Resources
+Need some hints? Chris Pine's [Learn To Program](https://pine.fm/LearnToProgram/) is a good resource.
 
-Chris Pine's [Learn To Program](https://pine.fm/LearnToProgram/) 
-
-This is an excellent resource for beginners. Check out these chapters: 
-
-* Chapter 1 - [Numbers](https://pine.fm/LearnToProgram/?Chapter=01)
-
-* Chapter 2 - [Letters](https://pine.fm/LearnToProgram/?Chapter=02)
-
-* Chapter 3 - [Variables and Assignment](https://pine.fm/LearnToProgram/?Chapter=03)
-
-* Chapter 4 - [Mixing It Up](https://pine.fm/LearnToProgram/?Chapter=04)
