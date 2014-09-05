@@ -7,7 +7,15 @@
 
 # Ruby strings party!
 
-Your friend Harry Potter was very impressed with the invitations that you created for Ron Weasley's graduation party. Harry suggests that the two of you start an invitation printing business together. He wants you to create a program that prompts a customer for their party details and then prints out custom invitations. You know something like this:
+Your friend Harry Potter was very impressed with the invitations that you created for Ron Weasley's graduation party. Harry suggests that the two of you start an invitation printing business together. He wants you to create a program that prompts customers for the following party details
+
+* guest_name
+* party_name
+* date
+* time
+* host_name
+
+and then prints out custom invitations. Maybe something like this?
 
 Dear Hermione,
 
@@ -16,7 +24,6 @@ You are cordially invited to the Best Halloween Party Ever on October 31 at 6pm.
 Sincerely,
 
 Harry Potter
-
 
 Need some hints? Chris Pine's [Learn To Program](https://pine.fm/LearnToProgram/) is a good resource.
 
