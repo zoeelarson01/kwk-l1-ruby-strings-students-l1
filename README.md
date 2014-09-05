@@ -17,6 +17,7 @@ Your friend Harry Potter was very impressed with the invitations that you create
 
 and then prints out custom invitations. Maybe something like this?
 
+```
 Dear Hermione,
 
 You are cordially invited to the Best Halloween Party Ever on October 31 at 6pm. Please RSVP no later than October 30.
@@ -24,6 +25,7 @@ You are cordially invited to the Best Halloween Party Ever on October 31 at 6pm.
 Sincerely,
 
 Harry Potter
+```
 
 Need some hints? Chris Pine's [Learn To Program](https://pine.fm/LearnToProgram/) is a good resource.
 
