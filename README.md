@@ -1,9 +1,4 @@
----
-  tags: ruby, strings, kids 
-  languages: ruby
-  level: 1
-  type: to-do
----
+
 
 ##ToDo: Ruby Strings Party!
 <img src="https://s3.amazonaws.com/after-school-assets/hogwarts.jpg" width="400px" align="right" hspace="10">
