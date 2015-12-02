@@ -25,3 +25,5 @@ Harry Potter
 
 Need some hints? Check out "Exercise 11: Asking Questions" at [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/ex11.html).
 
+
+<a href='https://learn.co/lessons/hs-ruby-strings-todo' data-visibility='hidden'>View this lesson on Learn.co</a>
