@@ -1,19 +1,5 @@
-# require_relative "../invitation.rb"
 
-# describe './lib/greeting.rb' do
-
-#   it 'greets the person whose name was passed in as an argument' do
-#     allow($stdout).to receive(:puts)
-
-#     output = capture_puts{ greeting("Sally") }
-
-#     expect(output).to include("Hello Sally. It's nice to meet you.")
-#   end
-# end
-
-
-# require_relative "./spec_helper.rb"
-require_relative "../invitation.rb"
+require 'require_all'
 
 describe 'invitation.rb prompts the user for the right information' do
   it 'outputs a welcome message that prompts the user for input' do
@@ -34,38 +20,38 @@ describe 'invitation.rb prompts the user for the right information' do
 
     expect(guest_name).to eq("Hermoine")
   end
-  # it 'captures the user input and sets it equal to a variable called party_name' do
-  #   allow($stdout).to receive(:puts)
+  it 'captures the user input and sets it equal to a variable called party_name' do
+    allow($stdout).to receive(:puts)
 
-  #   expect(self).to receive(:gets).and_return("Best Halloween Party Ever")
-  #   party_name = get_variable_from_file("./invitation.rb", "party_name")
+    expect(self).to receive(:gets).and_return("Best Halloween Party Ever")
+    party_name = get_variable_from_file("./invitation.rb", "party_name")
 
-  #   expect(party_name).to eq("Best Halloween Party Ever")
-  # end
-  # it 'captures the user input and sets it equal to a variable called date' do
-  #   allow($stdout).to receive(:puts)
+    expect(party_name).to eq("Best Halloween Party Ever")
+  end
+  it 'captures the user input and sets it equal to a variable called date' do
+    allow($stdout).to receive(:puts)
 
-  #   expect(self).to receive(:gets).and_return("October 31")
-  #   date = get_variable_from_file("./invitation.rb", "date")
+    expect(self).to receive(:gets).and_return("October 31")
+    date = get_variable_from_file("./invitation.rb", "date")
 
-  #   expect(date).to eq("October 31")
-  # end
-  # it 'captures the user input and sets it equal to a variable called time' do
-  #   allow($stdout).to receive(:puts)
+    expect(date).to eq("October 31")
+  end
+  it 'captures the user input and sets it equal to a variable called time' do
+    allow($stdout).to receive(:puts)
 
-  #   expect(self).to receive(:gets).and_return("6pm")
-  #   time = get_variable_from_file("./invitation.rb", "time")
+    expect(self).to receive(:gets).and_return("6pm")
+    time = get_variable_from_file("./invitation.rb", "time")
 
-  #   expect(time).to eq("6pm")
-  # end
-  # it 'captures the user input and sets it equal to a variable called host_name' do
-  #   allow($stdout).to receive(:puts)
+    expect(time).to eq("6pm")
+  end
+  it 'captures the user input and sets it equal to a variable called host_name' do
+    allow($stdout).to receive(:puts)
 
-  #   expect(self).to receive(:gets).and_return("Harry Potter")
-  #   host_name = get_variable_from_file("./invitation.rb", "host_name")
+    expect(self).to receive(:gets).and_return("Harry Potter")
+    host_name = get_variable_from_file("./invitation.rb", "host_name")
 
-  #   expect(host_name).to eq("Harry Potter")
-  # end
+    expect(host_name).to eq("Harry Potter")
+  end
 end
 
 
