@@ -1,5 +1,4 @@
-# require_relative "../invitation.rb"
-
+require 'pry'
 
 RSpec.configure do |config|
   config.order = :default
